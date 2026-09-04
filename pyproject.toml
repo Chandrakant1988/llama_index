@@ -6,22 +6,22 @@ requires = ["hatchling"]
 dev = [
     "black[jupyter]>=23.7.0,<=26.5.1",
     "codespell[toml]>=v2.2.6",
-    "ipykernel>=6.29.5,<7",
-    "mypy==1.11.0",
+    "ipykernel>=6.29.5,<8",
+    "mypy==2.3.1",
     "openai",
     "pandas",
-    "pre-commit==3.2.0",
-    "pylint==2.15.10",
+    "pre-commit==4.6.2",
+    "pylint==4.0.8",
     "pytest-asyncio>=0.23.7",
     "pytest-mock>=3.14.0",
     "pytest>=8.2.1",
-    "ruff==0.11.11",
+    "ruff==0.16.5",
     "types-Deprecated>=0.1.0",
     "types-PyYAML>=6.0.12.12,<7",
-    "types-protobuf>=4.24.0.4,<5",
-    "types-redis==4.5.5.0",
-    "types-requests==2.28.11.8",
-    "types-setuptools==67.1.0.0",
+    "types-protobuf>=4.24.0.4,<8",
+    "types-redis==4.6.0.20241004",
+    "types-requests==2.33.0.20260712",
+    "types-setuptools==84.0.0.20260812",
     "tomli>=2.2.1",
 ]
 
@@ -40,8 +40,8 @@ classifiers = [
 ]
 dependencies = [
     "llama-index-core>=0.14.23,<0.15.0",
-    "llama-index-embeddings-openai>=0.6.0,<0.7",
-    "llama-index-llms-openai>=0.7.0,<0.8",
+    "llama-index-embeddings-openai>=0.6.0,<0.8",
+    "llama-index-llms-openai>=0.7.0,<0.9",
     "nltk>=3.9.3",
 ]
 description = "Interface between LLMs and your data"
